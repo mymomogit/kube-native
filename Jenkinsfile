@@ -3,7 +3,7 @@ pipeline {
     agent any    
     
     environment {
-        MSR_FQDN_PORT='<registry dynamic DNS>:4443'
+        MSR_FQDN_PORT='ec2-18-159-51-81.eu-central-1.compute.amazonaws.com:4443'
     }
 
     stages {
